@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body {
+    margin: 0;
+    height: 100vh; /* full screen height */
+    display: flex;
+    align-items: center;     /* vertical center */
+    flex-direction: column;
+    padding: 50px;
+    background: url(home\ background.png);
+     color: white;
+     overflow: hidden;
+}
+
+.f1-header {
+    display: flex;
+    position: relative;
+    margin: 0, auto;
+    align-items: center;
+}
+
+
+.header-1 {
+    position: relative;
+    right: 150px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+
+.header {
+    width: 500px;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    font-weight: 500;
+    justify-content: space-evenly;
+    position: relative;
+    left: 150px;
+    
+}
+
+.wrap {
+    display: block;
+    height: 700px;
+    align-items: left;
+    margin-left: -95px;
+}
+
+.headline {
+
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+
+    position: relative;
+    margin-right: 500px;
+    margin-top: 100px;
+}
+
+.intro-text {
+    margin-top: 20px;
+    width: 350px;
+    letter-spacing: 2px;
+}
+
+.get-started {
+    margin-top: 30px;
+    width: 120px;
+    height: 40px;
+    background: linear-gradient( 90deg, blue 0%, rgb(58, 1, 110) 75%);
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.feature {
+    height: max-content;
+    width: max-content;
+    position: relative;
+    left: 173px;
+    top: -120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.f-head {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+    
+
+.f-child {
+    height: 100px;
+    width: 250px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    border: 1px solid rgb(94, 7, 175);
+    border-radius: 15px;
+    letter-spacing: 1px;
+    background: rgba(7, 6, 95, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    box-shadow: 
+        0 0 25px rgba(46, 57, 119, 0.6),  /* Glow */
+        inset 0 4px 6px rgba(74, 66, 182, 0.1); /* Inner */
+    color: white;
+
+    padding: 30px;
+}
+
+.f-g-child {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(156, 72, 224);
+    letter-spacing: normal;
+}
