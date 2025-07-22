@@ -107,7 +107,7 @@ body {
 }
 
 .feature {
-    height: 11rem;
+    height: 12rem;
     width: 100%;
     max-width: 30rem;
     font-family: 'Rajdhani', sans-serif;
@@ -184,4 +184,38 @@ body {
 
 .copy-right {
     margin-bottom: 1rem;
+}
+
+.cta-section {
+    width: 35rem;
+    height: 15rem;
+    max-width: 1200px;
+    background: rgb(5, 5, 78);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    gap: 1.5rem;
+}
+
+.cta-text {
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+.cta-button {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    height: 4rem;
+    width: 40rem;
+    background: linear-gradient(45deg, rgb(1, 1, 78) 0%, rgb(54, 1, 90) 60%);
+    border: inherit;
+    color: white;
+    letter-spacing: 0.1rem;
 }

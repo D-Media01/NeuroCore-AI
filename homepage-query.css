@@ -49,6 +49,10 @@
         font-size: 50%;
     }  
 
+    .header {
+        display: none;  
+    }
+
     .feature-wrap {
         margin: 0 auto;
     
