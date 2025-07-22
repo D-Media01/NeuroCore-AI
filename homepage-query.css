@@ -1,0 +1,68 @@
+/* For Destops 850 <= 1025px screen width */
+
+@media screen and (max-width: 64rem ) {
+    /* 1025px / 16px =  64rem*/
+    /* 64rem x 16px = 1024px  */
+
+    html {
+        /* 9px / 16px = 0.5625px  */
+        font-size: 56.25%;
+    }
+
+    .feature {
+        height: 12rem;
+    }
+}
+
+
+/* For <= 850px screen width  */
+
+@media screen and (max-width: 53rem ) {
+    /* 850px / 16px = 53rem */
+
+    html {
+        /* 9px / 16px = 0.5625px  */
+        font-size: 56.25%;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+        gap: 4rem;
+    }
+
+    .feature {
+       max-width: 40rem; 
+    }
+
+}
+
+
+/* For <= 672px screen width */
+
+@media screen and (max-width: 42rem ) {
+    /* 672px / 16px =  42rem */
+    /* 42rem x 16px = 672 */
+
+    html {
+        /* 8px / 16px = 0.5px */
+        font-size: 50%;
+    }  
+
+    .feature-wrap {
+        margin: 0 auto;
+    
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+        width: 90%;
+        gap: 3rem;
+        font-size: 2rem;
+        justify-items: center;
+    }
+
+    .footer-ccs {
+        flex-direction: column;
+    }
+}
