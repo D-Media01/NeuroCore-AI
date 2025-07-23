@@ -126,6 +126,10 @@ body {
     padding: 0.9375rem;
 }
 
+.f-child {
+    letter-spacing: 0.25rem;
+}
+
 
 .f-g-child {
     display: block;
