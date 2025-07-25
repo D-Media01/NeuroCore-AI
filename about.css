@@ -230,8 +230,7 @@ body {
         0 0 10px rgba(46, 57, 119, 0.6),  
         inset 0 20px 30px rgba(74, 66, 182, 0.1);
     color: white;
-    padding-left: 0;
-    padding: 0.9375rem;
+    padding: 1.5rem;
 }
 
 .value-title {
@@ -251,7 +250,7 @@ body {
 
 .cta-section {
     width: 35rem;
-    height: 15rem;
+    height: 18rem;
     max-width: 1200px;
     background: rgb(5, 5, 78);
     backdrop-filter: blur(4px);
@@ -268,6 +267,8 @@ body {
 
 .cta-text {
     font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
 
 }
 
