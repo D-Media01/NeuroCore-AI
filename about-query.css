@@ -43,3 +43,33 @@
         flex-direction: column;
     }
 }
+
+/* For <= 570px screen width */
+
+@media screen and (max-width: 35.625rem ) {
+    /* 570px / 16px =  35.625rem */
+
+    html {
+        /* 7px / 16px = 0.4375px */
+        font-size: 43.75%;
+    }  
+
+    .mission-vision {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mission, .vision {
+        width: 80%;
+        max-width: 480px;
+    }
+
+    .vision {
+        margin-top: 2rem;
+    }
+
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+}

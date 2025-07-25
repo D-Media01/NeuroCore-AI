@@ -25,7 +25,7 @@ body {
     margin: 0 auto;
     padding: auto 0;
     color: white;
-    padding-top: 3rem;
+    padding: 5rem;
 }
 
 /* Header Section */
@@ -145,13 +145,14 @@ body {
     font-size: 2.5rem;
     font-weight: 600;
     color: rgb(156, 72, 224);
+
 }
 
 .mission-text {
-    font-size: 1.5rem;
-    font-weight:100;
+    font-size: 1.6rem;
+
     margin-top: 1rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.23rem;
 }
 
 .vision {
@@ -164,13 +165,14 @@ body {
     font-size: 2.5rem;
     font-weight: 600;
     color: rgb(156, 72, 224);
+    
 }
 
 .vision-text {
-    font-size: 1.5rem;
-    font-weight:100;
+    font-size: 1.6rem;
+
     margin-top: 1rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.23rem;
 }
 
 .values-title {
