@@ -118,8 +118,13 @@ body {
     margin-top: 7rem;
 }
 
+.wrap {
+    display: flex;
+    gap: 1rem;
+}
+
 .feature {
-    height: 12rem;
+    height: 14rem;
     width: 100%;
     max-width: 40rem;
     font-family: 'Rajdhani', sans-serif;
