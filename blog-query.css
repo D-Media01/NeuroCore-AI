@@ -21,6 +21,23 @@
         font-size: 56.25%;
     }
 
+    .blog-head {
+        flex-direction: column;
+    }
+
+    .blog-wrap {
+        width: auto;
+    }
+
+    .post-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .post {
+        height: 38rem;
+        max-width: 65rem;
+    }
+
 }
 
 
