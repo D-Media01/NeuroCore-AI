@@ -21,8 +21,16 @@
         font-size: 56.25%;
     }
 
+    .headline {
+        font-size: 4rem;
+    }
+
     .blog-head {
         flex-direction: column;
+    }
+
+    .blog-headline {
+        font-size: 3rem;
     }
 
     .blog-wrap {
@@ -99,5 +107,18 @@
         display: block;
         margin-top: 2rem;
         font-size: 3rem;
+    }
+
+    .newsletter-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cta-submit {
+        margin-top: 1rem;
+        width: 30rem;
+        margin-left: 0;
     }
 }
