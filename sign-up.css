@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(145deg, #000320, #002b50);
+    background-repeat: no-repeat;
+    background-size: cover; /* Stretches across entire body */
+    background-attachment: fixed;
+    overflow-x: hidden;
+    padding: 5rem;
+}
+
+.header-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 4rem;
+}
+
+.header-1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    color: white;
+
+}
+
+.fas {
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+.form-container {
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 auto;
+    color: white;
+    padding-top: 2rem;
+    border: 1px solid rgb(94, 7, 175);
+    background: linear-gradient(145deg, #000320, #002b50);
+    backdrop-filter: blur(2px);
+    box-shadow: 
+        0 0 10px rgba(46, 57, 119, 0.6),  
+        inset 0 20px 30px rgba(74, 66, 182, 0.1);
+            border-radius: 7px;
+    color: white;
+    padding: 4rem;
+}
+
+.head-text {
+    font-size: 2rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-input {
+    height: 4rem;
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid rgb(94, 7, 175);
+    background: transparent;
+    backdrop-filter: blur(2px);
+    box-shadow: 
+        0 0 10px rgba(46, 57, 119, 0.6),  
+        inset 0 20px 30px rgba(74, 66, 182, 0.1);
+    color: white;
+    padding: 0.9rem;
+}
+
+.signup-submit {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    background: linear-gradient(45deg, rgb(1, 1, 78) 0%, rgb(54, 1, 90) 60%);
+    border: none;
+    box-shadow: none;
+    color: white;
+    letter-spacing: 0.1rem;
+    outline: inherit;
+}
+
+.checkbox-wrap {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.or-text-line {
+    display: flex; 
+    align-items: center; 
+    text-align: center; 
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.or-text-line::before,
+.or-text-line::after {
+    color: white;
+    content: ""; /* Required for pseudo-elements */
+    flex-grow: 1; /* Makes the lines expand to fill available space */
+    border-bottom: 1px solid rgb(255, 255, 255); /* Creates the horizontal line */
+    margin: 0 10px; /* Adds spacing between line and text */
+}
+
+.google-signup, .ios-signup {
+    width: 100%;
+    height: 4rem;
+    border-radius: 7px;
+    border: 1px solid rgb(94, 7, 175);
+    background: transparent;
+    backdrop-filter: blur(2px);
+    box-shadow: 
+        0 0 10px rgba(46, 57, 119, 0.6),  
+        inset 0 20px 30px rgba(74, 66, 182, 0.1);
+    color: white;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 1.5rem;
+
+}
+
+.google-logo, .ios-logo {
+    width: 2.5rem;
+    height: auto;
+    
+}
+
+.account-sign-in {
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
