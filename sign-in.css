@@ -106,21 +106,6 @@ body {
     outline: inherit;
 }
 
-.checkbox-wrap {
-    display: flex;
-    gap: 0.7rem;
-    width: 100%;
-    margin: 0 auto;
-    font-size: 1.3rem
-    
-}
-
-input[type="checkbox"] {
-    height: 2rem;
-    width: 2rem;
-    cursor: pointer;
-}
-
 .or-text-line {
     display: flex; 
     align-items: center; 

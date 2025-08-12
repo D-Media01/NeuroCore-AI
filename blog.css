@@ -44,9 +44,18 @@ body {
     align-items: center;
 }
 
+.header-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
 .header-1 {
     font-family: 'Orbitron', sans-serif;
     font-size: 2rem;
+    color: white;
 }
 
 .header {
@@ -67,9 +76,10 @@ body {
 }
 
 .fas {
-    display: block;
+    font-size: 2rem;
     padding: 0.5rem;
     text-decoration: none;
+    color: white;
 }
 
 .fas:hover {
